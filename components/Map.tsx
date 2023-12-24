@@ -46,7 +46,7 @@ const Map = () => {
 
   return (
     <section className="my-20">
-      <h2>Find Our Congregation</h2>
+      <h2 className="gradient-text">Find Our Congregation</h2>
       <div className="embla">
         <div className="embla__viewport" ref={emblaRef}>
           <div className="embla__container">

@@ -4,7 +4,7 @@ import Image from "next/image";
 const Aim = () => {
   return (
     <section className="max-w-6xl mx-auto py-4 px-8">
-      <h2>Our Goals</h2>
+      <h2 className="gradient-text">Our Goals</h2>
 
       <div className="flex flex-col lg:flex-row justify-between items-center  gap-10 lg:gap-20 text-gray-500 my-14 lg:my-20">
         <div>

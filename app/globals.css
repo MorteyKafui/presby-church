@@ -94,3 +94,18 @@ html {
   background-position: center;
   background-repeat: no-repeat;
 }
+
+.gradient-text {
+  font-size: 48px;
+  background-image: linear-gradient(
+    to right bottom,
+    #991b1b,
+    #1e40af,
+    #e11d48,
+    #172554
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.352); */
+}

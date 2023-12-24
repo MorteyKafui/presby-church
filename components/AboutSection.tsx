@@ -5,7 +5,10 @@ const AboutSection = () => {
   return (
     <>
       <section id="#about" className="my-10">
-        <h2>About Presby Church</h2>
+        {/* <h2 className=" text-white bg-gradient-to-tr from-red-800 to-blue-800">
+          About Presby Church
+        </h2> */}
+        <h2 className=" gradient-text">About Presby Church</h2>
         <article className="flex justify-between items-center gap-5">
           <div className="text-gray-500 md:text-lg w-[90%]">
             <p className="text-center md:text-left">

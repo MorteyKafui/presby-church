@@ -5,7 +5,7 @@ import Link from "next/link";
 const Ministries = () => {
   return (
     <>
-      <h2>Our Ministries</h2>
+      <h2 className="gradient-text">Our Ministries</h2>
       <section className="text-white" id="ministries">
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4  max-w-6xl mx-auto container p-10 place-items-center gap-8">
           <div className="flex flex-col justify-between items-center gap-4 mb-10">
@@ -24,7 +24,7 @@ const Ministries = () => {
 
               <Link
                 href="#"
-                className="flex text-center tracking-widest py-4 bg-gradient-to-bl from-red-800 from-405% to-blue-700 justify-center gap-5 hover:bg-gradient-to-bl hover:from-blue-800 from-405% hover:to-red-700 transition-all duration-300 ease-in text-white uppercase text-lg"
+                className="flex text-center tracking-widest py-4 bg-gradient-to-bl from-red-800 from-45% to-blue-700 justify-center gap-5 hover:bg-gradient-to-bl hover:from-blue-800 hover:from-45% hover:to-red-700 hover:transition-all duration-200 ease-in text-white uppercase text-lg"
               >
                 Visit <SendHorizonal />
               </Link>

@@ -8,10 +8,10 @@ import clsx from "clsx";
 
 export const navItems = [
   { label: "Home", href: "/" },
-  { label: "About Us", href: "#about" },
+  // { label: "About Us", href: "#about" },
   { label: "Congregations", href: "/congregations" },
   { label: "Blog", href: "/blog" },
-  { label: "Contact", href: "#contact" },
+  // { label: "Contact", href: "#contact" },
 ];
 
 const Navbar = () => {
