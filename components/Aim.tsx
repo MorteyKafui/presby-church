@@ -3,15 +3,15 @@ import Image from "next/image";
 
 const Aim = () => {
   return (
-    <section id="#about" className="my-10 max-w-6xl mx-auto py-10 px-8">
+    <section className="max-w-6xl mx-auto py-4 px-8">
       <h2>Our Goals</h2>
 
-      <div className="flex flex-col lg:flex-row justify-between items-center  gap-10 lg:gap-20 text-gray-500 my-10 lg:my-40">
+      <div className="flex flex-col lg:flex-row justify-between items-center  gap-10 lg:gap-20 text-gray-500 my-14 lg:my-20">
         <div>
           <span className="bg-blue-900 font-bold text-xl shadow-2xl text-white px-10 py-2">
             Vision
           </span>
-          <p className="my-10 md:text-xl">
+          <p className="my-10 text-blue-900 font-bold md:text-xl">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
             reiciendis possimus quae sapiente eum commodi. Laboriosam explicabo
             animi fuga at! Lorem ipsum dolor sit amet consectetur adipisicing
@@ -28,12 +28,12 @@ const Aim = () => {
           className="shadow-2xl rounded-2xl"
         />
       </div>
-      <div className="flex flex-col lg:flex-row justify-between items-center  gap-10 lg:gap-20 text-gray-500 my-16 lg:my-40">
+      <div className="flex flex-col lg:flex-row justify-between items-center  gap-10 lg:gap-20 my-16 lg:my-12">
         <div className="lg:order-1">
           <span className="bg-red-800 font-bold text-xl shadow-2xl text-white px-10 py-2 ">
             Mission
           </span>
-          <ul className="my-10 md:text-xl text-blue-900 font-bold flex flex-col gap-8">
+          <ul className="my-10 md:text-xl text-red-800 font-bold flex flex-col gap-5">
             <li className="flex items-center gap-5">
               <ScrollText size={30} className="text-red-800" />
               <p className="flex-1">Mobilizing the entire church for prayer</p>
