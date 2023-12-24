@@ -2,6 +2,7 @@ import AboutSection from "@/components/AboutSection";
 import Aim from "@/components/Aim";
 import Carousel from "@/components/Carousel";
 import Leaders from "@/components/Leaders";
+import Map from "@/components/Map";
 import Ministries from "@/components/Ministries";
 
 const Home = () => {
@@ -14,6 +15,7 @@ const Home = () => {
       <Leaders />
       <Aim />
       <Ministries />
+      <Map />
     </>
   );
 };
