@@ -1,13 +1,17 @@
+import AboutSection from "@/components/AboutSection";
+import Aim from "@/components/Aim";
 import Carousel from "@/components/Carousel";
+import Leaders from "@/components/Leaders";
 
 const Home = () => {
   return (
     <>
-      {/* <Slider /> */}
       <Carousel />
-      <section className="max-w-5xl mx-auto px-10 container">
-        about section
-      </section>
+      <main className="max-w-6xl mx-auto px-10 container">
+        <AboutSection />
+      </main>
+      <Leaders />
+      <Aim />
     </>
   );
 };

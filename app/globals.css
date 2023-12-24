@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -72,5 +76,9 @@
   }
   body {
     @apply bg-background text-foreground;
+  }
+
+  h2 {
+    @apply text-4xl text-center mb-16 font-bold tracking-wide uppercase text-blue-700;
   }
 }

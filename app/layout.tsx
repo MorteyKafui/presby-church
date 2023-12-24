@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
-import { Merriweather } from "next/font/google";
+import { Poppins } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 
-const merriweather = Merriweather({
+const poppins = Poppins({
   subsets: ["latin"],
   weight: ["400", "700", "900"],
 });
@@ -20,9 +20,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={merriweather.className}>
+      <body className={poppins.className}>
         <Navbar />
-        <main>{children}</main>
+        {children}
       </body>
     </html>
   );

@@ -27,7 +27,7 @@ const Navbar = () => {
           alt="pcg logo"
           className="flex justify-center items-center"
         />
-        <ul className="md:flex justify-between items-center gap-5 uppercase font-bold hidden">
+        <ul className="md:flex justify-between items-center gap-5 uppercase font-bold hidden tracking-wide">
           {navItems.map(({ label, href }) => (
             <li key={label}>
               <Link
